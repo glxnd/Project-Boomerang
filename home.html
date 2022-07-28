@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boomerang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body style="background-color: rgb(255, 255, 255)"">
+    <!--Navigation Bar-->
+    <div style= "background-color: white;"class="navbar navbar-expand-md navbar-light py-1 navbar-home">
+        <!-- NAVIGATION BAR -->
+        <a class="navbar-brand font-weight-bold" href="home.html">Boomerang<img src="images/Boomerang.png" alt="logo"></a>
+        <!-- NAVIGATION BAR LINKS -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav w-100 justify-content-end">
+                <li class="nav-item mr-3">
+                    <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="view_all_stocks.html">List of Stocks</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="recommendation.html">Portfolio Recommendation</a>
+                </li>
+            </ul>
+        </div>
+
+          <iframe src="https://free.timeanddate.com/clock/i89imgwv/fn15/fs17/tct/pct/tt0/ta1" frameborder="0" width="381" height="22" allowtransparency="true"></iframe> 
+
+        </div>
+    </nav>
+
+    <div id="top-section" class="container-fluid">
+        <h1 class="text-center home-title container-fluid" id="header">WELCOME</h1>
+    </div>
+
+      <!-- Bottom section: Bootstrap Cards -->
+    <div class="bot-section container-fluid">
+        <div class="card-deck row">
+
+            <div class="col-md">
+                <div class="card my-3">
+                    <img class="card-img-top" src="images/search_icon.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">ETFs Available</h5>
+                        <p class="card-text">Find and view your favourite stocks analysis over here!</p>
+                        <a href="view_all_stocks.html" class="btn home-btn btn-stocks-unselected mb-2">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card my-3">
+                    <img class="card-img-top" src="images/stats_icon.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Portfolio Recommendation</h5>
+                        <p class="card-text">Find out your suitable risk profile and start investing today!</p>
+                        <a href="recommendation.html" class="btn home-btn btn-recco-unselected mb-2">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <section class="recentNews">
+        <div class="container">
+            <h2 class="news-title">
+                Recent News
+            </h2>
+            <div class="row">
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://cryptonews.com/news/ukraine-starts-its-war-themed-nft-sale-as-russia-keeps-killing-innocent-people.htm"><img alt="News Entry" src="images/newsarticle1.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>March</span><strong>31</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                Ukraine Starts Its War-Themed NFT Sale as Russia Keeps Killing Innocent People
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://cryptonews.com/news/bitcoin-ethereum-pause-sol-zil-surge.htm"><img alt="News Entry" src="images/newsarticle3.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>March</span><strong>31</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                Bitcoin and Ethereum on Pause, SOL and ZIL Surge
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://cryptonews.com/news/buterin-claims-ethereum-simplicity-still-possible-as-developers-warn-of-increasing-complexity.htm"><img alt="News Entry" src="images/newsarticle2.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>March</span><strong>30</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                Buterin Claims Ethereum Simplicity is Still Possible, as Developers Warn of Increasing Complexity
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://cryptonews.com/news/over-usd-600m-stolen-blockchain-bridge-hack-as-ronin-network-exploited.htm"><img alt="News Entry" src="images/newsarticle4.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>March</span><strong>30</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                Over USD 600M Stolen in Blockchain Bridge Hack as Axie Infinity's Ronin Exploited
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://cryptonews.com/news/caribbean-cbdc-stays-down-for-more-than-month-as-technical-woes-continue.htm"><img alt="News Entry" src="images/newsarticle5.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>February</span><strong>22</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                Caribbean CBDC Stays Down for More Than a Month as Technical Woes Continue
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://cryptonews.com/news/jpmorgan-metaverse-digital-ruble-trial-binance-chain-rebrands-more-news.htm"><img alt="News Entry" src="images/newsarticle6.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>February</span><strong>15</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                JPMorgan on Metaverse, Digital Ruble Trial, Binance Chain Rebrands + More News
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+</body>
+</html>
